@@ -3,7 +3,7 @@ Aplicación web que extrae tweets desde una base de datos, analiza su polaridad 
 
 ## Estructura del proyecto
 ```
-MinadoTweets/
+AppWeb_Analisis/
 ├── minar_tweets.py           # Función para extraer tweets y guardarlos en un archivo JSON y en MongoDB Atlas
 ├── autenticar.py             # Crea un cliente autenticado con las cookies ingresadas para la extracción de tweets
 ├── extraer.py                # Busca tweets con un 'query' ingresado y los extrae con ayuda de la biblioteca -twikit-
